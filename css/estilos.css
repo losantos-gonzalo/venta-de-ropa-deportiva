@@ -239,7 +239,6 @@ img:hover {
 
 .carruselx3img img {
     border-radius: 5%;
-    box-shadow:
 }
 
 /*container section niños*/
@@ -366,12 +365,6 @@ img:hover {
         "caja6 caja6 caja6 caja6 caja6 caja6";
 }
 
-.container__main-mujeres-caja1,
-.container__main-mujeres-caja2,
-.container__main-mujeres-caja3,
-.container__main-mujeres-caja4,
-.container__main-mujeres-caja5,
-.container__main-mujeres-caja6 {}
 
 .caja1 {
     grid-area: caja1;
@@ -446,21 +439,22 @@ img:hover {
 
 /*HOMBRES*/
 
+.boton__hombre {
+    width: 25rem;
+    margin: 1rem 0 0 6.5rem;
+}
+
+.body__hombre {
+    background-color: #b3b3b3b6;
+}
+
 .main__hombres {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.5fr);
     grid-template-areas: "box1 box1 box1 box1 box1 box1"
                          "box2 box2 box2 box3 box3 box3"
                          "box4 box4 box4 box5 box5 box5";
-}
-
-.box1,
-.box2,
-.box3,
-.box4,
-.box5 {
-    border: 1px solid red;
 }
 
 .box1 {
@@ -468,7 +462,6 @@ img:hover {
     height: 91vh;
     background-image: url(../img/man.png);
     background-size: cover;
-    border: 1PX solid #4c00ff;
     display: flex;
 }
 
@@ -513,6 +506,7 @@ img:hover {
     grid-area: box2;
     color: #818181;
 }
+
 .box2 img {
     width: 100%;
 }
@@ -520,6 +514,7 @@ img:hover {
 .box3 {
     grid-area: box3;
 }
+
 .box3 img {
     width: 100%;
 }
@@ -589,33 +584,50 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 480px) {
+
     /*index*/
+    .main__h4 {
+        background-color: #ffffff5d;
+    }
+
     .coloreiter {
         flex-direction: column;
     }
+
     .navbar__responsive {
         margin-left: -1rem;
     }
+
     .imgdefondo {
         background-size: 50rem;
         margin-top: 5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
     }
+
     .main__text {
         text-shadow: 0px 0px 5px #fff;
     }
+
     /*CONTACTO*/
     .body__contacto {
         background-size: cover;
         background-position: top;
+        background-repeat: no-repeat;
+        background-position: center;
     }
+
     .container__contacto {
-        width: 15rem;
-        margin: 1.5rem auto;
+        width: 24rem;
+        margin: 8rem auto;
     }
+
     button[type="submit"] {
         width: 12rem;
         margin-top: -1rem;
-        margin-left: 0.5rem;
+        margin-left: 4.2rem;
     }
 
 }
