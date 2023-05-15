@@ -73,7 +73,7 @@
 
 .main__contacto {
   height: 100vh;
-  border: 2px solid #09ff00;
+  border: 2px solid #000000;
   background-image: url(../img/contacto.png);
   background-repeat: no-repeat;
   background-size: cover;
