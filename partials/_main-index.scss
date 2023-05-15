@@ -1,5 +1,5 @@
 .main__div__div {
-    border: 1px solid red;
+    border: 1px solid #ff000000;
     background-image: url(../img/messi.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -9,17 +9,14 @@
         padding: 0.5rem;
         display: flex;
         flex-direction: column;
-        border: 2px solid #00ff2a;
         max-width: 30rem;
         margin: 7rem 0 0 2rem;
 
         .main__h2 {
-            border: 1px solid red;
             font-size: 3rem;
         }
 
         .main__p {
-            border: 1px solid #2f00ff;
             font-size: 1.2rem;
         }
 
