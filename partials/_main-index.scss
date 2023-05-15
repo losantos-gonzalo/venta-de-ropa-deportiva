@@ -1,0 +1,40 @@
+.main__div__div {
+    border: 1px solid red;
+    background-image: url(../img/messi.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main__section__cajita {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #00ff2a;
+        max-width: 30rem;
+        margin: 7rem 0 0 2rem;
+
+        .main__h2 {
+            border: 1px solid red;
+            font-size: 3rem;
+        }
+
+        .main__p {
+            border: 1px solid #2f00ff;
+            font-size: 1.2rem;
+        }
+
+        .main__button {
+            border: 4px double #000000;
+            margin-top: 0.5rem;
+            max-width: 22rem;
+            font-size: 1.3rem;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px #000000;
+
+            &:hover {
+                box-shadow: 0px 0px 20px #000000;
+                color: #7e0000;
+            }
+        }
+    }
+}

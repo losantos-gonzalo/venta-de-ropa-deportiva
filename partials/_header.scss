@@ -1,0 +1,38 @@
+.navbar__edit {
+    border: 1px solid red;
+    position: fixed;
+    width: 100vw;
+    margin-top: -0.6rem;
+    max-height: 3.5rem;
+    z-index: 1;
+
+    .navbar__edit-containerFluid {
+        border: 1px solid #ffe600;
+        background-color: #a5a5a5;
+        box-shadow: 0px 0px 20px #000000;
+
+        .navbar__imgLogo img {
+            border: 1px solid #51ff00;
+            width: 3rem;
+        }
+
+        .navbar__divInicoTiendaContacto {
+            border: 1px solid #33ff00;
+            justify-content: end;
+        }
+
+        .navbar__li_a {
+            font-size: 1.4rem;
+            margin-left: 0.5rem;
+
+            &:hover {
+                background-color: #cccccc00;
+            }
+
+            & a:hover {
+                color: #630000;
+                text-shadow: 0px 0px 15px #ffffff;
+            }
+        }
+    }
+}

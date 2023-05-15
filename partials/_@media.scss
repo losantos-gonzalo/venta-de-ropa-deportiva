@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .main__div__div {
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+
+        .main__section__cajita {
+            color: white;
+            text-shadow: 0px 0px 10px #000;
+        }
+    }
+}
