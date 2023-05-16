@@ -1,5 +1,5 @@
 footer {
-    background-color: #000000;
+    background-color: $color-Negro;
     height: 8rem;
 
     .footer__h2 {
@@ -13,9 +13,9 @@ footer {
 
         .redes {
             margin-top: 3rem;
-            border: 1px solid #ffffff;
+            border: 1px solid $color-blanco;
             max-width: 2.2rem;
-            background-color: #ddb;
+            background-color: $color-preferido;
             border-radius: 18px;
             margin: 0.3rem;
 
@@ -30,13 +30,13 @@ footer {
             }
 
             p {
-                color: #ddb;
+                color: $color-preferido;
             }
         }
     }
 
     .copy {
-        color: #ddb;
+        color: $color-preferido;
         text-align: center;
     }
 }

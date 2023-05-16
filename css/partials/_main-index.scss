@@ -1,9 +1,10 @@
 .main__div__div {
-    border: 1px solid #ff000000;
+    border: 1px solid #ffffff00;
     background-image: url(../img/messi.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 
     .main__section__cajita {
         padding: 0.5rem;
@@ -14,10 +15,12 @@
 
         .main__h2 {
             font-size: 3rem;
+            text-shadow: 0px 0px 10px #000000;
         }
 
         .main__p {
             font-size: 1.2rem;
+            text-shadow: 0px 0px 10px #000000;
         }
 
         .main__button {

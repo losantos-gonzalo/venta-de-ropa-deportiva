@@ -1,6 +1,6 @@
 .main__contacto {
     height: 100vh;
-    border: 2px solid #000000;
+    border: 2px solid $color-Negro;
     background-image: url(../img/contacto.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
 
     .container__contacto {
         background-color: #0000001f;
-        border: 1px solid #000000;
+        border: 1px solid $color-Negro;
         width: 20rem;
         margin: auto;
         margin-top:12rem;
@@ -23,7 +23,7 @@
         }
 
         .form__contactos {
-            color: aliceblue;
+            color: $color-blanco;
             display: flex;
             flex-direction: column;
             border-radius: 10px;
@@ -36,7 +36,7 @@
 
                 &:hover {
                     background-color: #ffffff71;
-                    color: aliceblue;
+                    color: $color-blanco;
                 }
             }
         }

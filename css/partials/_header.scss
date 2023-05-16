@@ -8,8 +8,8 @@
 
     .navbar__edit-containerFluid {
         border: 1px solid #ffe60000;
-        background-color: #a5a5a5;
-        box-shadow: 0px 0px 20px #000000;
+        background-color: $color-gris;
+        box-shadow: 0px 0px 20px $color-Negro;
 
         .navbar__imgLogo img {
             border: 1px solid #51ff0000;
@@ -31,7 +31,7 @@
 
             & a:hover {
                 color: #630000;
-                text-shadow: 0px 0px 15px #ffffff;
+                text-shadow: 0px 0px 15px $color-blanco;
             }
         }
     }
