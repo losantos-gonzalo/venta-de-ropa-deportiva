@@ -153,7 +153,6 @@ body .container__mujer {
   flex-direction: column;
 }
 body .container__mujer .main_mujer {
-  border: 1px solid red;
   height: 100vh;
   margin-top: 5rem;
   display: grid;
@@ -185,23 +184,17 @@ body .container__mujer .section1 .mujeres__boton:hover {
   box-shadow: 0px 0px 15px #000000;
 }
 body .container__mujer .cajas {
-  border: 2px solid #1100ff;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 1fr, 1fr, 1fr;
   grid-template-areas: "cajita1 cajita1 cajita1" "cajita2 cajita3 cajita3" "cajita4 cajita4 cajita4";
 }
-body .container__mujer .cajas .cajita {
-  border: 1px solid red;
-}
 body .container__mujer .cajas .cajita .h3__prenda__izquierda {
-  border: 1px solid blue;
   width: 20rem;
   margin-left: 2rem;
   margin-top: 5rem;
 }
 body .container__mujer .cajas .cajita .p__mujer {
-  border: 1px solid red;
   margin-left: 2rem;
 }
 body .container__mujer .cajas .cajita1 {
@@ -237,7 +230,6 @@ body .container__mujer .cajas .cajita3 img:hover {
   box-shadow: 0px 0px 15px #fcfcfc;
 }
 body .container__mujer .cajas .cajita3 .contenido1 {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -252,7 +244,6 @@ body .container__mujer .cajas .cajita3 .contenido1 .boton__mujer {
   margin-right: auto;
 }
 body .container__mujer .cajas .cajita3 .contenido2 {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -273,7 +264,6 @@ body .container__mujer .cajas .cajita4 {
   display: flex;
 }
 body .container__mujer .cajas .cajita4 .cajaZapaMujer {
-  border: 1px solid red;
   width: 15rem;
   max-height: 20rem;
   margin-left: auto;
@@ -327,7 +317,7 @@ main .section__media {
   height: 100vh;
 }
 main .section__media .section__div {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   padding: 6rem;
 }
 main .section__media .section__div .section__h3-media {
@@ -342,7 +332,6 @@ main .section__inferior-niños {
   background-color: rgba(255, 255, 255, 0.5568627451);
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid #c300ff;
   height: 110vh;
   -moz-column-gap: 4rem;
        column-gap: 4rem;
@@ -605,7 +594,54 @@ main .section__inferior-niños .niños:hover {
   /*
   pagina de niños
   */
-  .section__superior {
-    background-color: aquamarine;
+  main .section__superior {
+    border: 2px solid rgba(255, 0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  main .section__superior .section__cajita1 {
+    width: 25rem;
+    margin-top: 4rem;
+    height: 120vh;
+  }
+  main .section__superior .section__cajita1 .section__niños__h3 {
+    padding: 5rem;
+    font-size: 5.2rem;
+    text-align: center;
+  }
+  main .section__superior .section__cajita1 .section__boton {
+    margin-bottom: 1rem;
+  }
+  .section__media {
+    margin-top: 18rem;
+    margin-bottom: 0;
+  }
+  .footer__ni {
+    margin-top: 82rem;
+  }
+  /*
+  pagina de mujeres
+  */
+  body .container__mujer .section1 {
+    background-position: center;
+  }
+  body .container__mujer .section1 .h3__mujer {
+    width: 25rem;
+    font-size: 10rem;
+  }
+  body .container__mujer .section1 .mujeres__boton {
+    margin: 0 0 0 10rem;
+  }
+  body .container__mujer .cajas {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container__mujer .cajas .cajita4 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer__mujer {
+    margin-top: 20rem;
   }
 }/*# sourceMappingURL=styles.css.map */

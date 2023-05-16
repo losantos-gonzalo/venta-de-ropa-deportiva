@@ -35,8 +35,73 @@ media de pagina hombre
     /*
     pagina de niños
     */
+    main {
 
-    .section__superior {
-        background-color: aquamarine;
+        .section__superior {
+            border: 2px solid rgba(255, 0, 0, 0);
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 2rem;
+
+            .section__cajita1 {
+                width: 25rem;
+                margin-top: 4rem;
+                height: 120vh;
+
+                .section__niños__h3 {
+                    padding: 5rem;
+                    font-size: 5.2rem;
+                    text-align: center;
+                }
+
+                .section__boton {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    .section__media {
+        margin-top: 18rem;
+        margin-bottom: 0;
+    }
+
+    .footer__ni {
+        margin-top: 82rem;
+    }
+
+    /*
+    pagina de mujeres
+    */
+
+    body {
+        .container__mujer {
+
+            .section1 {
+                background-position: center;
+
+                .h3__mujer {
+                    width: 25rem;
+                    font-size: 10rem;
+                }
+                .mujeres__boton {
+                    margin: 0 0 0 10rem;
+                } 
+            }
+
+            .cajas {
+                display: flex;
+                flex-direction: column;
+
+                .cajita4 {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+    .footer__mujer {
+        margin-top: 20rem;
     }
 }

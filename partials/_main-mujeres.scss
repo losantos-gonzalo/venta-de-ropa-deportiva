@@ -6,7 +6,6 @@ body {
         flex-direction: column;
 
         .main_mujer {
-            border: 1px solid red;
             height: 100vh;
             margin-top: 5rem;
             display: grid;
@@ -43,26 +42,22 @@ body {
         }
 
         .cajas {
-            border: 2px solid #1100ff;
             display: grid;
             grid-template-columns: 1fr, 1fr, 1fr;
             grid-template-rows: 1fr, 1fr, 1fr;
             grid-template-areas: "cajita1 cajita1 cajita1"
-                "cajita2 cajita3 cajita3"
-                "cajita4 cajita4 cajita4";
+                                  "cajita2 cajita3 cajita3"
+                                  "cajita4 cajita4 cajita4";
 
             .cajita {
-                border: 1px solid red;
 
                 .h3__prenda__izquierda {
-                    border: 1px solid blue;
                     width: 20rem;
                     margin-left: 2rem;
                     margin-top: 5rem;
                 }
 
                 .p__mujer {
-                    border: 1px solid red;
                     margin-left: 2rem;
                 }
             }
@@ -105,7 +100,6 @@ body {
                 }
 
                 .contenido1 {
-                    border: 1px solid red;
                     display: flex;
                     flex-direction: column;
 
@@ -123,7 +117,6 @@ body {
                 }
 
                 .contenido2 {
-                    border: 1px solid red;
                     display: flex;
                     flex-direction: column;
 
@@ -148,7 +141,6 @@ body {
                 display: flex;
 
                 .cajaZapaMujer {
-                    border: 1px solid red;
                     width: 15rem;
                     max-height: 20rem;
                     margin-left: auto;

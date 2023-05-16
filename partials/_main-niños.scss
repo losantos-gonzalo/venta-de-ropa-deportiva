@@ -50,7 +50,7 @@ main {
         height: 100vh;
 
         .section__div {
-            border: 1px solid red;
+            border: 1px solid #ff000000;
             padding: 6rem;
 
             .section__h3-media {
@@ -69,7 +69,6 @@ main {
         background-color: #ffffff8e;
         display: flex;
         flex-wrap: wrap;
-        border: 3px solid #c300ff;
         height: 110vh;
         column-gap: 4rem;
         row-gap: 1rem;
