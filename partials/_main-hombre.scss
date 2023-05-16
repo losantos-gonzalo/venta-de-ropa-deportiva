@@ -7,7 +7,7 @@
     .section__div {
         text-align: center;
         padding-top: 10rem;
-        border: 3px solid red;
+        border: 3px solid rgb(0, 0, 0);
 
         .text__h2-hombres {
             font-size: 3rem;
@@ -59,7 +59,7 @@
 
     @for $i from 1 through 8 {
         .menu#{$i} {
-            border: 1px solid red;
+            border: 1px solid #ff000000;
             width: 13rem;
             text-align: center;
             margin-left: auto;

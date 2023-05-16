@@ -286,7 +286,7 @@ body .container__mujer .cajas .cajita4 .cajaZapaMujer img {
 
 main .section__superior {
   background-image: url(../img/fondo\ ninos.png);
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -377,7 +377,7 @@ main .section__inferior-niños .niños:hover {
 .section__superior-h .section__div {
   text-align: center;
   padding-top: 10rem;
-  border: 3px solid red;
+  border: 3px solid rgb(0, 0, 0);
 }
 .section__superior-h .section__div .text__h2-hombres {
   font-size: 3rem;
@@ -422,7 +422,7 @@ main .section__inferior-niños .niños:hover {
   margin-bottom: 10.3rem;
 }
 .section__media .menu1 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -441,7 +441,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu2 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -460,7 +460,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu3 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -479,7 +479,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu4 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -498,7 +498,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu5 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -517,7 +517,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu6 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -536,7 +536,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu7 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -555,7 +555,7 @@ main .section__inferior-niños .niños:hover {
   background-color: #ddb;
 }
 .section__media .menu8 {
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
   width: 13rem;
   text-align: center;
   margin-left: auto;
@@ -580,13 +580,32 @@ main .section__inferior-niños .niños:hover {
     background-position: center;
     justify-content: center;
   }
-  .main__div__div .main__section__cajita {
-    width: 23rem;
-    color: white;
-    text-shadow: 0px 0px 10px #000;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 12.5rem;
+  /*
+  media de pagina hombre
+  */
+  .section__superior-h {
+    background-position: center;
+    height: 70%;
+  }
+  .section__superior-h .text__h2-hombres {
+    margin-top: -3.8rem;
+  }
+  .section__media {
+    gap: 0;
+    flex-wrap: wrap;
+    border: 1px solid rgba(255, 0, 0, 0);
+  }
+  .section__media .menu {
+    width: 10rem;
+    gap: 2px;
+  }
+  .footer__h {
+    margin-top: 50rem;
+  }
+  /*
+  pagina de niños
+  */
+  .section__superior {
+    background-color: aquamarine;
   }
 }/*# sourceMappingURL=styles.css.map */
