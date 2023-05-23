@@ -35,24 +35,55 @@
             }
         }
 
-        .boton__hombre-main {
-            padding: 1rem 2.5rem;
-            transition: transform 1.0s ease;
+        .main__button-hombre {
+            width: 20rem;
+            padding: 5px 0px;
+            border: unset;
+            border-radius: 15px;
+            color: #212121;
+            z-index: 1;
+            background: #ffffff69;
+            position: relative;
+            font-weight: 1000;
+            font-size: 17px;
+            -webkit-box-shadow: 4px 8px 19px -3px #00000045;
+            box-shadow: 4px 8px 20px -3px #00000045;
+            transition: all 250ms;
+            overflow: hidden;
+            text-shadow: 0px 0px 5px #fff;
+            margin-bottom: 0.4rem;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0;
+                border-radius: 15px;
+                background-color: #212121;
+                z-index: -1;
+                -webkit-box-shadow: 4px 8px 19px -3px #00000045;
+                box-shadow: 4px 8px 19px -3px #00000045;
+                transition: all 450ms
+            }
 
             &:hover {
-                transform: translate(0px, -15px);
-                animation-iteration-count: infinite;
-                border: 4.5px solid $color-blanco;
+                color: #e8e8e8;
+            }
+
+            &:hover::before {
+                width: 100%;
             }
         }
     }
 }
 
-.section__media {
+.section__medio-h {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 5rem;
+    column-gap: 6rem;
     row-gap: 0.5rem;
     margin-bottom: 10.3rem;
 
@@ -66,17 +97,60 @@
             margin-right: auto;
             margin-top: 1rem;
             box-shadow: 0px 0px 5px $color-Negro;
+            transition: transform 0.5s ease;
+            border-radius: 5px;
+
+            &:hover {
+                transform: scale(1.10);
+                transform: translate(0px, -15px);
+                animation-iteration-count: infinite;
+            }
 
             & img {
                 width: 100%;
             }
 
-            .but__men {
-                margin-bottom: 0.5rem;
+            .boton {
                 padding: 0.2rem;
+                display: inline-block;
+                border-radius: 4px;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 17px;
+                padding: 0.5rem;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin-top: -1rem;
 
-                &:hover {
-                    background-color: $color-preferido;
+                button {
+                    padding: 0.2rem 0.1rem;
+                    border-radius: 5px;
+                }
+
+                & button {
+                    cursor: pointer;
+                    display: inline-block;
+                    position: relative;
+                    transition: 0.2s;
+                }
+
+                & button:after {
+                    content: '»';
+                    position: absolute;
+                    opacity: 0;
+                    top: 0;
+                    right: -15px;
+                    transition: 0.2s;
+                }
+
+                &:hover button {
+                    padding-right: 15px;
+                }
+
+                &:hover button:after {
+                    opacity: 1;
+                    right: 0;
                 }
             }
         }

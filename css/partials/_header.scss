@@ -1,10 +1,10 @@
 .navbar__edit {
     border: 1px solid #ff000000;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     margin-top: -0.6rem;
     max-height: 3.5rem;
-    z-index: 1;
+    z-index: 2;
 
     .navbar__edit-containerFluid {
         border: 1px solid #ffe60000;
@@ -12,26 +12,98 @@
         box-shadow: 0px 0px 20px $color-Negro;
 
         .navbar__imgLogo img {
-            border: 1px solid #51ff0000;
-            width: 3rem;
+            width: 4.1rem;
+            margin-top: 1.5rem;
         }
 
         .navbar__divInicoTiendaContacto {
-            border: 1px solid #33ff0000;
+            border: 1px solid #00000000;
             justify-content: end;
+            margin-top: 1.4rem;
+            margin-left: 1rem;
         }
 
         .navbar__li_a {
-            font-size: 1.4rem;
             margin-left: 0.5rem;
+            margin-right: 1rem;
 
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #e1e1e1;
+            font-weight: 800;
+            cursor: pointer;
+            position: relative;
+            background: none;
+            text-transform: uppercase;
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-duration: 500ms;
+            transition-property: color;
+
+
+
+            &:focus,
             &:hover {
-                background-color: #cccccc00;
+                color: #000000;
             }
 
-            & a:hover {
-                color: #630000;
-                text-shadow: 0px 0px 15px $color-blanco;
+            &:focus:after,
+            &:hover:after {
+                width: 100%;
+                left: 0%;
+            }
+
+            &:after {
+                content: "";
+                pointer-events: none;
+                bottom: -2px;
+                left: 50%;
+                position: absolute;
+                width: 0%;
+                height: 2px;
+                background-color: #000000;
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                transition-duration: 400ms;
+                transition-property: width, left;
+            }
+
+            .cajita__tienda {
+                border: 1.5px solid #000000;
+                background-color: $color-gris;
+                box-shadow: 0px 0px 5px $color-Negro;
+
+                .tiendita {
+                    border: 1px solid red;
+                    align-items: center;
+                    background-color: transparent;
+                    color: #000000;
+                    cursor: pointer;
+                    display: flex;
+                    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                    font-size: 1rem;
+                    font-weight: 700;
+                    line-height: 1.5;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    outline: 0;
+                    border: 0;
+                    padding: 1rem;
+
+                    &:before {
+                        background-color: #fcfcfc;
+                        content: "";
+                        display: inline-block;
+                        height: 2px;
+                        margin-right: 5px;
+                        transition: all .42s cubic-bezier(.25, .8, .25, 1);
+                        width: 0;
+                    }
+
+                    &:hover:before {
+                        background-color: #fdfdfd75;
+                        width: 3rem;
+                    }
+
+                }
             }
         }
     }

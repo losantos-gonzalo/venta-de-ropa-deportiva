@@ -1,10 +1,11 @@
-.main__div__div {
-    border: 1px solid #ffffff00;
+.main__div__index {
+    border: 0.1px solid #ddb;
     background-image: url(../img/messi.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #ddb;
+    font-family: 'Roboto', sans-serif;
 
     .main__section__cajita {
         padding: 0.5rem;
@@ -13,27 +14,58 @@
         max-width: 30rem;
         margin: 7rem 0 0 2rem;
 
-        .main__h2 {
+        .main__h1 {
+            color: #fff;
+            text-shadow: 0px 0px 5px #000000;
             font-size: 3rem;
-            text-shadow: 0px 0px 10px #000000;
         }
 
         .main__p {
+            color: #fff;
             font-size: 1.2rem;
-            text-shadow: 0px 0px 10px #000000;
+            text-shadow: 0px 0px 5px #000000;
         }
 
         .main__button {
-            border: 4px double #000000;
-            margin-top: 0.5rem;
-            max-width: 22rem;
-            font-size: 1.3rem;
-            cursor: pointer;
-            box-shadow: 0px 0px 10px #000000;
+            width: 24rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-right: auto;
+            padding: 10px 0px;
+            border: unset;
+            border-radius: 15px;
+            color: #212121;
+            z-index: 1;
+            background: #ffffff69;
+            position: relative;
+            font-weight: 1000;
+            font-size: 17px;
+            -webkit-box-shadow: 4px 8px 19px -3px #00000045;
+            box-shadow: 4px 8px 20px -3px #00000045;
+            transition: all 250ms;
+            overflow: hidden;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0;
+                border-radius: 15px;
+                background-color: #212121;
+                z-index: -1;
+                -webkit-box-shadow: 4px 8px 19px -3px #00000045;
+                box-shadow: 4px 8px 19px -3px #00000045;
+                transition: all 450ms
+            }
 
             &:hover {
-                box-shadow: 0px 0px 20px #000000;
-                color: #7e0000;
+                color: #e8e8e8;
+            }
+
+            &:hover::before {
+                width: 100%;
             }
         }
     }

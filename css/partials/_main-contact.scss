@@ -1,44 +1,84 @@
-.main__contacto {
-    height: 100vh;
-    border: 2px solid $color-Negro;
-    background-image: url(../img/contacto.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.body__contacto {
+    background: #403B4A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E7E9BB, #403B4A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    .main__contacto {
+        height: 100vh;
+        border: 2px solid $color-Negro;
 
-    .container__contacto {
-        background-color: #0000001f;
-        border: 1px solid $color-Negro;
-        width: 20rem;
-        margin: auto;
-        margin-top:12rem;
-        padding: 1rem;
-        border-radius: 10px;
-
-        .contactanos {
-            color: antiquewhite;
-            text-align: center;
+        .container__contacto {
+            background-color: #0000001f;
+            border: 1px solid $color-Negro;
+            width: 20rem;
+            margin: auto;
+            margin-top: 12rem;
+            padding: 1rem;
             border-radius: 10px;
-        }
+            animation: fade-in 1s ease-in-out, colors 5s infinite;
 
-        .form__contactos {
-            color: $color-blanco;
-            display: flex;
-            flex-direction: column;
-            border-radius: 10px;
-
-            .boton__contactos {
-                width: 100%;
-                padding: 0.2rem;
+            .contactanos {
+                color: antiquewhite;
+                text-align: center;
                 border-radius: 10px;
-                margin-top: 0.6rem;
+            }
 
-                &:hover {
-                    background-color: #ffffff71;
-                    color: $color-blanco;
+            .form__contactos {
+                color: $color-blanco;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+
+                .boton__contactos {
+                    width: 100%;
+                    padding: 0.2rem;
+                    border-radius: 10px;
+                    margin-top: 0.6rem;
+                    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #ffffff71;
+                        color: $color-blanco;
+                    }
                 }
             }
         }
     }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes colors {
+        0% {
+            background-color: #0000001a;
+        }
+
+        25% {
+            background-color: #0000002c;
+        }
+
+        50% {
+            background-color: rgba(0, 0, 0, 0.233);
+        }
+
+        75% {
+            background-color: #0000001f;
+        }
+
+        100% {
+            background-color: #0000000a;
+        }
+    }
+
+
 }
