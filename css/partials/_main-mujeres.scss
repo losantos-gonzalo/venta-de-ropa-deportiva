@@ -262,6 +262,8 @@ body {
             height: 100vh;
             text-align: center;
             display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
 
             .cajaZapaMujer {
                 border-radius: 10px;
