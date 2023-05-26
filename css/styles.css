@@ -1296,6 +1296,7 @@ main .section__inferior-niños .niños:hover {
     border: 1px solid red;
   }
   .mujer .navbar__edit {
+    max-width: 55.9vh;
     border: 1px solid rgb(0, 255, 213);
     margin: 0;
     padding: 0;
@@ -1306,7 +1307,7 @@ main .section__inferior-niños .niños:hover {
   .mujer .navbar__edit .navbar__edit-containerFluid a img {
     width: 5rem;
     margin: 0;
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
   .mujer .navbar__edit .navbar__edit-containerFluid .nav__media {
     border: 1px solid red;
@@ -1322,14 +1323,14 @@ main .section__inferior-niños .niños:hover {
   .mujer .navbar__edit .navbar__edit-containerFluid .nav__media .navbar__li_a .cajita__tienda li a {
     font-size: 1rem;
     margin: 0;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
   .mujer .container__mujer .main_mujer {
     border: 1px solid rgb(94, 255, 0);
-    width: 28.1em;
+    width: 23.3em;
     height: 100vh;
     background-position: top;
-    background-position-x: -25em;
+    background-position-x: -30em;
     background-position-y: -2em;
   }
   .mujer .container__mujer .main_mujer .mainMulier {
@@ -1337,7 +1338,7 @@ main .section__inferior-niños .niños:hover {
   }
   .mujer .container__mujer .main_mujer .mainMulier .carta {
     width: 20rem;
-    margin-left: 4.5em;
+    margin-left: 1.7em;
   }
   .mujer .container__mujer .main_mujer .mainMulier .carta .main__h2 {
     font-size: 8rem;
@@ -1346,11 +1347,11 @@ main .section__inferior-niños .niños:hover {
   .mujer .container__mujer .main_mujer .mainMulier .main__button-mujer {
     margin: 0;
     width: 15rem;
-    margin-left: 15vh;
+    margin-left: 12vh;
   }
   .mujer .cajas {
-    width: 28.1em;
-    border: 1px solid rgb(0, 255, 200);
+    width: 23.1em;
+    border: 1px solid rgb(255, 0, 0);
     height: 300vh;
   }
   .mujer .cajas .cajita {
@@ -1410,6 +1411,9 @@ main .section__inferior-niños .niños:hover {
     -moz-column-gap: 1rem;
          column-gap: 1rem;
     display: grid;
+  }
+  .mujer footer {
+    margin-top: 62em;
   }
   /*footer*/
   footer {
