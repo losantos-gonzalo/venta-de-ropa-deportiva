@@ -1292,12 +1292,8 @@ main .section__inferior-niños .niños:hover {
     margin-top: 10rem;
   }
   /*mujer*/
-  .mujer {
-    border: 1px solid red;
-  }
   .mujer .navbar__edit {
     max-width: 55.9vh;
-    border: 1px solid rgb(0, 255, 213);
     margin: 0;
     padding: 0;
   }
@@ -1309,11 +1305,7 @@ main .section__inferior-niños .niños:hover {
     margin: 0;
     margin-left: 8rem;
   }
-  .mujer .navbar__edit .navbar__edit-containerFluid .nav__media {
-    border: 1px solid red;
-  }
   .mujer .navbar__edit .navbar__edit-containerFluid .nav__media .navbar__li_a {
-    border: 1px solid red;
     font-size: 1.4rem;
     margin-left: auto;
   }
@@ -1326,7 +1318,6 @@ main .section__inferior-niños .niños:hover {
     margin-left: 10rem;
   }
   .mujer .container__mujer .main_mujer {
-    border: 1px solid rgb(94, 255, 0);
     width: 23.3em;
     height: 100vh;
     background-position: top;
@@ -1351,7 +1342,6 @@ main .section__inferior-niños .niños:hover {
   }
   .mujer .cajas {
     width: 23.1em;
-    border: 1px solid rgb(255, 0, 0);
     height: 300vh;
   }
   .mujer .cajas .cajita {
@@ -1379,7 +1369,6 @@ main .section__inferior-niños .niños:hover {
     width: 12rem;
   }
   .mujer .cajas .cajita3 .contenido1 {
-    border: 1px solid blue;
     width: 150px !important;
   }
   .mujer .cajas .cajita3 .contenido1 .h3__mujer__remeras {
@@ -1393,7 +1382,6 @@ main .section__inferior-niños .niños:hover {
     margin: 0;
   }
   .mujer .cajas .cajita3 .contenido2 {
-    border: 1px solid blue;
     width: 150px;
   }
   .mujer .cajas .cajita3 .contenido2 .h3__mujer__remeras {
@@ -1407,13 +1395,52 @@ main .section__inferior-niños .niños:hover {
     margin: 0;
   }
   .mujer .cajas .cajita4 {
-    border: 1px solid #d400ff;
     -moz-column-gap: 1rem;
          column-gap: 1rem;
     display: grid;
   }
   .mujer footer {
     margin-top: 62em;
+  }
+  /*niños*/
+  body main .section__superior {
+    flex-direction: column;
+    justify-content: none;
+    height: 150vh;
+  }
+  body main .section__superior .section__cajita1 {
+    width: 20rem;
+    margin: 0;
+  }
+  body main .section__superior .section__cajita1 .section__niños__h3 {
+    font-size: 4rem;
+  }
+  body main .section__superior .section__cajita1 .main__button-niños {
+    width: 10rem;
+    margin: 0;
+    margin-left: 5rem;
+  }
+  body main .section__media {
+    margin: 0;
+    margin-top: -10rem;
+  }
+  body main .section__media .section__div {
+    margin: 0;
+  }
+  body main .section__media .section__div .section__h3-media {
+    margin: 0;
+    width: 12rem;
+    margin-top: 5rem;
+  }
+  body main .section__media .section__div .section__p-media {
+    width: 11rem;
+  }
+  body main .section__inferior-niños {
+    margin-top: 25rem;
+  }
+  body .footer__ni {
+    position: relative;
+    bottom: -86.4rem;
   }
   /*footer*/
   footer {

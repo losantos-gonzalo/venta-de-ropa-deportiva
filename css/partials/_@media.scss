@@ -95,11 +95,9 @@
 
     /*mujer*/
     .mujer {
-        border: 1px solid red;
 
         .navbar__edit {
             max-width: 55.9vh;
-            border: 1px solid rgb(0, 255, 213);
             margin: 0;
             padding: 0;
 
@@ -112,23 +110,15 @@
                     margin-left: 8rem;
                 }
 
-                .menu__hambur {
-
-                    .menu__hambur-icon {
-                    }
-                }
-
                 .nav__media {
-                    border: 1px solid red;
 
                     .navbar__li_a {
-                        border: 1px solid red;
                         font-size: 1.4rem;
                         margin-left: auto;
 
                         .cajita__tienda {
                             width: 19em;
-                            
+
                             li {
 
                                 a {
@@ -146,7 +136,6 @@
         .container__mujer {
 
             .main_mujer {
-                border: 1px solid rgb(94, 255, 0);
                 width: 23.3em;
                 height: 100vh;
                 background-position: top;
@@ -177,7 +166,6 @@
 
         .cajas {
             width: 23.1em;
-            border: 1px solid rgb(255, 0, 0);
             height: 300vh;
 
             .cajita {
@@ -200,7 +188,7 @@
             .cajita2 {
                 width: 10rem;
                 margin-top: 5rem;
-                
+
                 img {
                     width: 100%;
                 }
@@ -210,7 +198,6 @@
                 width: 12rem;
 
                 .contenido1 {
-                    border: 1px solid blue;
                     width: 150px !important;
 
                     .h3__mujer__remeras {
@@ -228,7 +215,6 @@
                 }
 
                 .contenido2 {
-                    border: 1px solid blue;
                     width: 150px;
 
                     .h3__mujer__remeras {
@@ -247,7 +233,6 @@
             }
 
             .cajita4 {
-                border: 1px solid #d400ff;
                 column-gap: 1rem;
                 display: grid;
             }
@@ -257,6 +242,60 @@
             margin-top: 62em;
         }
     }
+
+    /*niños*/
+    body {
+        main {
+            .section__superior {
+                flex-direction: column;
+                justify-content: none;
+                height: 150vh;
+    
+                .section__cajita1 {
+                    width: 20rem;
+                    margin: 0;
+    
+                    .section__niños__h3 {
+                        font-size: 4rem;
+                    }
+    
+                    .main__button-niños {
+                        width: 10rem;
+                        margin: 0;
+                        margin-left: 5rem;
+                    }
+                }
+            }
+    
+            .section__media {
+                margin: 0;
+                margin-top: -10rem;
+    
+                .section__div {
+                    margin: 0;
+    
+                    .section__h3-media {
+                        margin: 0;
+                        width: 12rem;
+                        margin-top: 5rem;
+                    }
+    
+                    .section__p-media {
+                        width: 11rem;
+                    }
+                }
+            }
+    
+            .section__inferior-niños {
+                margin-top: 25rem;
+            }
+        }
+        .footer__ni {
+            position: relative;
+            bottom: -86.4rem;
+        }
+    }
+    
 
     /*footer*/
     footer {
