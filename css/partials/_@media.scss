@@ -95,18 +95,49 @@
 
     /*mujer*/
     .mujer {
-        width: 70vh;
+        width: 100vh;
 
         .navbar__edit {
+            width: 100vh;
             margin: 0;
             padding: 0;
             .navbar__edit-containerFluid {
                 margin: 0;
-                max-width: 79.5%;
+                width: 100vh;
 
                 a img {
+                    width: 8.5rem;
                     margin: 0;
-                    margin-left: 8rem;
+                    margin-left: 15rem;
+                }
+
+                .menu__hambur {
+
+                    .menu__hambur-icon {
+                        width: 5rem;
+                        height: 3.5rem;
+                    }
+                }
+
+                .nav__media {
+
+                    .navbar__li_a {
+                        font-size: 2.3rem;
+                        margin-left: auto;
+
+                        .cajita__tienda {
+                            width: 35rem;
+                            
+                            li {
+
+                                a {
+                                    font-size: 2rem;
+                                    margin: 0;
+                                    margin-left: 24rem;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -114,30 +145,36 @@
         .container__mujer {
 
             .main_mujer {
+                height: 100vh;
+                background-position: top;
+                background-position-x: -44em;
+                background-position-y: -5rem;
 
                 .mainMulier {
                     width: 22rem;
 
                     .carta {
-                        width: 20rem;
-                        margin-left: auto;
-                        margin-right: auto;
+                        width: 40rem;
+                        padding: 5rem 8rem;
 
                         .main__h2 {
-                            font-size: 5rem;
+                            font-size: 10rem;
+                            text-align: center;
                         }
                     }
 
                     .main__button-mujer {
                         margin: 0;
-                        width: 15rem;
-                        margin-left: 8vh;
+                        width: 30rem;
+                        margin-left: 30vh;
                     }
                 }
             }
         }
 
         .cajas {
+            border: 1px solid red;
+            height: 300vh;
 
             .cajita {
                 display: flex;
@@ -216,6 +253,5 @@
     /*footer*/
     footer {
         width: 100%;
-        margin-top: 75rem;
     }
 }

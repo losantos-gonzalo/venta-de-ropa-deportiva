@@ -1,4 +1,4 @@
-body {
+.mujer {
     background-color: #b3b3b398;
 
     .container__mujer {
@@ -6,7 +6,7 @@ body {
         flex-direction: column;
 
         .main_mujer {
-            height: 100vh;
+            max-height: 100vh;
             margin-top: 5rem;
             display: grid;
         }
