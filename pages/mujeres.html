@@ -25,7 +25,7 @@
     <title>¡Compra Ropa Deportiva para Mujeres en Argentina! | Tienda Online</title>
 </head>
 
-<body class="mujer">
+<body>
     <header>
         <!--nav bar de bootstrap-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar__edit" data-aos="fade-down-right">
@@ -67,43 +67,49 @@
     </header>
 
     <main class="container__mujer">
-        <section class="main_mujer section1">
-            <div class="mainMulier">
-                <div class="carta">
-                    <h2 class="main__h2">35% OFF</h2>
+
+        <section>
+            <div class="container__superior-mujer">
+                <div class="container__s-m">
+                    <div class="carta">
+                        <h2 class="main__h2">35% OFF</h2>
+                    </div>
+                    <button class="main__button-mujer">
+                        <h2>VER MAS</h2>
+                    </button>
                 </div>
-                <button class="main__button-mujer">
-                    <h2>VER MAS</h2>
-                </button>
             </div>
         </section>
 
-        <section class="cajas"><!--GRID AREA INICIO-->
-            <div class="cajita1 cajita">
-                <h1 class="h3__prenda__izquierda">ZAPATILLAS DE MUJER</h1>
-                <p class="p__mujer">Encontrá aquí zapatillas de mujer de adidas. Un amplio catálogo para hacer deporte,
-                    para ir al
+        <section> <!--grid inicio-->
+            <div class="row container-fluid container__mujer-medio">
+                <h1>ZAPATILLAS DE MUJER</h1>
+                <p>Encontrá aquí zapatillas de mujer de adidas. Un amplio catálogo para hacer deporte, para ir al
                     gimnasio, para dar un paseo o ir a la oficina.</p>
-            </div>
-            <div class="cajita2 cajita">
-                <img src="../img/jermur__grid.png" alt="img mujer deportiva">
+
+                <div class="col-sm-6 col img__mujer"><!--col 1-->
+                    <img src="../img/jermur__grid.png" alt="img mujer">
+                </div>
+
+                <div class="col-sm-6 col container__remeras"><!--col 2-->
+
+                    <div class="contenido1">
+                        <h3 class="h3__mujer__remeras">REMERAS</h3>
+                        <img src="../img/remera addidas.png" alt="img remera roza">
+                        <BUtton class="boton__mujer">VER MAS</BUtton>
+                    </div>
+                    <div class="contenido2">
+                        <h3 class="h3__mujer__remeras">REMERAS</h3>
+                        <img src="../img/remera addidas roza.png" alt="img remera roza">
+                        <BUtton class="boton__mujer">VER MAS</BUtton>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="cajita3 cajita">
-                <div class="contenido1">
-                    <h3 class="h3__mujer__remeras">REMERAS</h3>
-                    <img src="../img/remera addidas.png" alt="img remera roza">
-                    <BUtton class="boton__mujer">VER MAS</BUtton>
-                </div>
-                <div class="contenido2">
-                    <h3 class="h3__mujer__remeras">REMERAS</h3>
-                    <img src="../img/remera addidas roza.png" alt="img remera roza">
-                    <BUtton class="boton__mujer">VER MAS</BUtton>
-                </div>
-            </div>
-
-            <div class="cajita4 cajita">
-                <div class="cajaZapaMujer">
+            <div class="row container-fluid container__mujer-inferior">
+                <!--section inferior-->
+                <div class="col container__mujer-caja1 cajaZapaMujer">
                     <h3>ZAPATILLAS BUSENITZ VULC II</h3>
                     <img src="../img/BUSENTITZ VULC II.JPG" alt="zapa de mujer">
                     <p>$28.999</p>
@@ -111,7 +117,8 @@
                         <button>Añadir al carrito</button>
                     </div>
                 </div>
-                <div class="cajaZapaMujer">
+
+                <div class="col container__mujer-caja2 cajaZapaMujer">
                     <h3>ADIZERO ADIOS PRO 3.0</h3>
                     <img src="../img/img zapa 2 mujer.jpg" alt="zapa de mujer">
                     <p>$25.999</p>
@@ -119,7 +126,8 @@
                         <button>Añadir al carrito</button>
                     </div>
                 </div>
-                <div class="cajaZapaMujer">
+
+                <div class="col container__mujer-caja3 cajaZapaMujer">
                     <h3>RZAPATILLAS FORUM BOLD</h3>
                     <img src="../img/ZAPATILLAS FORUM BOLD.jpg" alt="zapa de mujer">
                     <p>$23.999</p>
@@ -127,7 +135,8 @@
                         <button>Añadir al carrito</button>
                     </div>
                 </div>
-                <div class="cajaZapaMujer">
+
+                <div class="col container__mujer-caja4 cajaZapaMujer">
                     <h3>ZAPATILLAS SUPERSTAR</h3>
                     <img src="../img/ZAPATILLAS SUPERSTAR.jpg" alt="zapa de mujer">
                     <p>$232.999</p>
@@ -136,10 +145,8 @@
                     </div>
                 </div>
             </div>
-        </section><!--GRID AREA FIN-->
 
-    </main>
-
+        </section> <!--grid fin-->
 
     </main>
 
