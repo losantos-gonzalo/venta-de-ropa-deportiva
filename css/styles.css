@@ -404,7 +404,7 @@ body .container__mujer-medio .container__remeras .boton__mujer {
   border-radius: 10px;
   color: #212121;
   z-index: 1;
-  background: #e8e8e8;
+  background: #ffffff;
   position: relative;
   font-weight: 1000;
   font-size: 15px;
@@ -426,7 +426,7 @@ body .container__mujer-medio .container__remeras .boton__mujer::before {
   transition: all 250ms;
 }
 body .container__mujer-medio .container__remeras .boton__mujer:hover {
-  color: #e8e8e8;
+  color: #ffffff;
 }
 body .container__mujer-medio .container__remeras .boton__mujer:hover::before {
   width: 100%;
@@ -1292,7 +1292,7 @@ main .section__inferior-niños .niños:hover {
   /*mujer*/
   body .container__mujer section .container__superior-mujer {
     width: 63.5vh;
-    background-position-x: -25rem;
+    background-position-x: -28rem;
   }
   body .container__mujer section .container__superior-mujer .container__s-m .carta {
     max-width: 20rem;
